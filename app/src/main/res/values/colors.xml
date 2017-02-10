@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mii_backgroung">#f4fafd</color>
+    <color name="primaryRedColor">#CC0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="mii_gray">#686868</color>
+    <color name="mii_light_gray1">#bcbcbc</color>
+    <color name="mii_light_gray2">#ededed</color>
+    <color name="colorPrimaryNew">#ff0000</color>
+
+
+</resources>

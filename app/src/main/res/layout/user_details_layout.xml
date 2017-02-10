@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    tools:context="layout.com.layoutdemoapp.MainActivityAgent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scrollbarThumbVertical="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txt_company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:text="User Form"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_licence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Licence No."
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/edt_full_address_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_style"
+                android:cursorVisible="true"
+                android:gravity="top|left"
+                android:hint="Enter Your Address"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="5"
+                android:padding="10dp"
+                android:paddingLeft="5dp"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/edt_tra_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Transport Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_tra_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Transport Address"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_tra_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Transport Phone No."
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_style"
+                android:ems="5"
+                android:hint="Enter Date of Birth"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round_border"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:padding="5dp"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
